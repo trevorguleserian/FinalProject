@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="static/css/style.css"> -->
 
 
 </head>
@@ -54,7 +54,7 @@
     </header>
 ​
     <main role="main">
-​       <div id='top'></div>
+​      <div id='top'></div>
       <div class="album py-5 bg-light">
         <div class="container">
           <div class="row">
@@ -62,9 +62,9 @@
               <section class="jumbotron text-center">
                 <div class="container">
                     <h1 class='jumbotron-heading'>Welcome to our dashboard!</h1>
-                  <h1 class="jumbotron-heading">Take a look around!</h1>
-                  <p class="lead text-muted">On our dashboard we use machine learning to analyze data in an attempt to predict heart and kidney failure. 
-                  </p>​
+                    <h1 class="jumbotron-heading">Take a look around!</h1>
+                    <p class="lead text-muted">On our dashboard we use machine learning to analyze data in an attempt to predict heart and kidney failure. 
+                    </p>​
                     <li><a href="#img1">Heart Failure Analysis</a></li>
                     <li><a href="#img2">Kidney Failure Analysis</a></li>
                     <li><a href="#tableau">Tableau Visualizations</a></li>
@@ -120,7 +120,8 @@
                     <div class="container fill">
                     <div id='img2'></div>
                         <h1>Kidney Failure Analysis</h1>
-                        <p class="lead text-muted">TEXT 
+                        <p class="lead text-muted">When predicting heart failure, one factor to consider is Coronary Artery Disease. There is a correlation positive between coronary artery disease and kidney failure, so we decided to explore further if the factors that predict kidney failure can also be used in predicting coronary artery disease. Using the Kaggle dataset in the link above, we looked at 25 measures of data including 1 class,  11 numeric, and 14 nominal data types for 158 instances.  We were able to predict with 92.5% accuracy whether or not a patient has coronary artery disease. 
+                          Prior to analysis, the data was cleaned by removing rows with absent information, reducing the instances from 400 to 158. Categorical data was binary encoded and then data was split into training and testing data groups. The prediction models tested include decision tree, random forest, logistical regression, support vector machine, K nearest neighbors, neural networks, and deep learning. These models yielded predictions with 87.5% – 92.5% accuracy. The most accurate model for predicting coronary artery disease was the support vector machine which predicted with 92.5% accuracy. Additionally, using the random forest decision tree model, the most significant factors for predicting coronary disease were serum creatinine, blood glucose random, age, and blood urea. 
                         </p>​
                         <div class='row'>
                           <div class='col-md-6'>
