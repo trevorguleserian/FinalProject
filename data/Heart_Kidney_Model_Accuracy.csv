@@ -1,8 +1,8 @@
 ML_Model,Heart_Model_Accuracy,Kidney_Model_Accuracy
-Decision Tree,78.67,90.0
-Decision Tree,78.67,90.0
-Random Forrest,85.33,90.0
-Logistical Regression,86.67,95.0
-K Nearest Neighbors,85.33,92.5
-Neural Network,85.33,95.0
-Deep Learning,81.33,92.5
+Decision Tree,78.67,89.74
+Random Forrest,85.33,97.44
+Logistical Regression,86.67,94.87
+Support Vector Machine,89.33,94.87
+K Nearest Neighbors,85.33,97.44
+Neural Network,85.33,94.87
+Deep Learning,81.33,94.87
