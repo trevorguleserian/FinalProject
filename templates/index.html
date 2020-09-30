@@ -44,7 +44,7 @@
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
             <img src="https://img.icons8.com/fluent/96/000000/heart-with-pulse.png"/>
-             <h2><strong>Heart Disease Research</strong></h2>
+             <h2><strong>Heart & Kidney Failure Research</strong></h2>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -63,12 +63,12 @@
                 <div class="container">
                     <h1 class='jumbotron-heading'>Welcome to our dashboard!</h1>
                   <h1 class="jumbotron-heading">Take a look around!</h1>
-                  <p class="lead text-muted">TEXT 
+                  <p class="lead text-muted">On our dashboard we use machine learning to analyze data in an attempt to predict heart and kidney failure. 
                   </p>​
                     <li><a href="#tableau">Tableau</a></li>
-                    <li><a href="#img1">Heart Disease Analysis</a></li>
-                    <li><a href="#img2">Img2</a></li>
-                    <li><a href="#img3">Img3</a></li>
+                    <li><a href="#img1">Heart Failure Analysis</a></li>
+                    <li><a href="#img2">Kidney Failure Analysis</a></li>
+                    <li><a href="#img3">Final Summary</a></li>
                 </div>
               </section>
             </div>
@@ -89,7 +89,7 @@
               <div id='img1'></div>
               <div class="card mb-4 box-shadow">
                 <div class="container fill">
-                    <h1>Heart Disease Analysis</h1>
+                    <h1>Heart Failure Analysis</h1>
                     <p class="lead text-muted">TEXT 
                     </p>​
                     <div class='row'>
@@ -131,9 +131,41 @@
                 <div class="card mb-4 box-shadow">
                     <div class="container fill">
                     <div id='img2'></div>
-                        <h1>Kidney Disease Analysis</h1>
+                        <h1>Kidney Failure Analysis</h1>
                         <p class="lead text-muted">TEXT 
                         </p>​
+                        <div class='row'>
+                          <div class='col-md-6'>
+                            <img src='../confusion_matrix/DT_norm_kidney.png' alt='DT_norm'width='350' height='300'>
+                          </div>
+                          <div class='col-md-6'>
+                            <img src='../confusion_matrix/DT_notnorm_kidney.png' alt='DT_notnorm' width='350' height='300'>
+                          </div>
+                        </div>
+                        <div class='row'>
+                          <div class='col-md-6'>
+                            <img src='../confusion_matrix/LR_norm_kidney.png' alt='LR_norm'width='350' height='300'>
+                          </div>
+                          <div class='col-md-6'>
+                            <img src='../confusion_matrix/LR_notnorm_kidney.png' alt='LR_notnorm' width='350' height='300'>
+                          </div>
+                        </div>
+                        <div class='row'>
+                          <div class='col-md-6'>
+                            <img src='../confusion_matrix/RF_norm_kidney.png' alt='LR_norm'width='350' height='300'>
+                          </div>
+                          <div class='col-md-6'>
+                            <img src='../confusion_matrix/RF_notnorm_kidney.png' alt='LR_notnorm' width='350' height='300'>
+                          </div>
+                        </div>
+                        <div class='row'>
+                          <div class='col-md-6'>
+                            <img src='../confusion_matrix/SVM_norm_kidney.png' alt='LR_norm'width='350' height='300'>
+                          </div>
+                          <div class='col-md-6'>
+                            <img src='../confusion_matrix/SVM_notnorm_kidney.png' alt='LR_notnorm' width='350' height='300'>
+                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -141,7 +173,7 @@
                 <div class="card mb-4 box-shadow">
                     <div class="container fill">
                     <div id='img3'></div>
-                        <h1>img3</h1>
+                        <h1>Summary</h1>
                         <p class="lead text-muted">TEXT 
                         </p>​
                     </div>
