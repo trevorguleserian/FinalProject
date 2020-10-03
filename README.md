@@ -1,3 +1,3 @@
 # FinalProject
 
-## Published Website: https://trevorguleserian.github.io/FinalProject/templates/index.html
+## Published Website: https://trevorguleserian.github.io/Health-Prediction/templates/index.html
