@@ -127,26 +127,26 @@
                         <p class='lead text-muted'>Prior to analysis, the data was cleaned by removing rows with absent and erroneous information, reducing the instances from 400 to 154. Categorical data was binary encoded and then data was split into training and testing data groups. The prediction models tested include decision tree, random forest, logistical regression, support vector machine, K nearest neighbors, neural networks, and deep learning. These models yielded predictions with 89.74% – 97.44% accuracy but low precision for predicting positive results for Coronary Artery Disease. The most accurate models for predicting coronary artery disease were the random forest decision tree and K nearest neighbors which both predicted outcomes with 97.44% accuracy. However, the Logistic Regression Model, while less accurate at 92.31%, provided higher precision in predicting true positive results.  Additionally, using the random forest decision tree model, the most significant factors for predicting coronary disease were serum creatinine, blood glucose random, blood urea, and sugar.  </p>​
                         <div class='row'>
                           <div class='col-md-6'>
-                            <img src='../confusion_matrix/DT_norm_kidney.png' alt='DT_norm'width='350' height='300'>
+                            <img src='../confusion_matrix/KNN_norm_kidney_DS1.png' alt='DT_norm'width='350' height='300'>
                           </div>
                           <div class='col-md-6'>
-                            <img src='../confusion_matrix/DT_notnorm_kidney.png' alt='DT_notnorm' width='350' height='300'>
+                            <img src='../confusion_matrix/KNN_notnorm_kidney_DS1.png' alt='DT_notnorm' width='350' height='300'>
                           </div>
                         </div>
-                        <div class='row'>
+                        <!-- <div class='row'>
                           <div class='col-md-6'>
                             <img src='../confusion_matrix/LR_norm_kidney.png' alt='LR_norm'width='350' height='300'>
                           </div>
                           <div class='col-md-6'>
                             <img src='../confusion_matrix/LR_notnorm_kidney.png' alt='LR_notnorm' width='350' height='300'>
                           </div>
-                        </div>
+                        </div> -->
                         <div class='row'>
                           <div class='col-md-6'>
-                            <img src='../confusion_matrix/RF_norm_kidney.png' alt='LR_norm'width='350' height='300'>
+                            <img src='../confusion_matrix/RF_norm_kidney_DS1.png' alt='LR_norm'width='350' height='300'>
                           </div>
                           <div class='col-md-6'>
-                            <img src='../confusion_matrix/RF_notnorm_kidney.png' alt='LR_notnorm' width='350' height='300'>
+                            <img src='../confusion_matrix/RF_notnorm_kidney_DS1.png' alt='LR_notnorm' width='350' height='300'>
                           </div>
                         </div>
                         <div class='row'>
@@ -169,7 +169,14 @@
                             <img src='../y_pie.png' alt='LR_notnorm'  width='550' height='300'>
                           </div>
                         </div> 
-
+                        <div class='row'>
+                          <div class='col-md-6'>
+                            <img src='../KidneyDataComparison.png' alt='LR_notnorm'  width='350' height='300'>
+                          </div>
+                          <div class='col-md-6'>
+                            <img src='../KidneyPredictionsByDataset.png' alt='LR_notnorm'  width='550' height='300'>
+                          </div>
+                        </div> 
                         </div>
                     </div>
                 </div>
