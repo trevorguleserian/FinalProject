@@ -14,4 +14,7 @@
 
 ### Prior to analysis, the data was cleaned by removing rows with absent and erroneous information, reducing the instances from 400 to 154. Categorical data was binary encoded and then data was split into training and testing data groups. The prediction models tested include decision tree, random forest, logistical regression, support vector machine, K nearest neighbors, neural networks, and deep learning. These models yielded predictions with 89.74% – 97.44% accuracy but low precision for predicting positive results for Coronary Artery Disease. The most accurate models for predicting coronary artery disease were the random forest decision tree and K nearest neighbors which both predicted outcomes with 97.44% accuracy. However, the Logistic Regression Model, while less accurate at 92.31%, provided higher precision in predicting true positive results. Additionally, using the random forest decision tree model, the most significant factors for predicting coronary disease were serum creatinine, blood glucose random, blood urea, and sugar.
 
+### Machine Learning Accuracy:
+![Stations](img/MLacct.PNG)
+
 
